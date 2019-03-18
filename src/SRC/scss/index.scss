@@ -46,14 +46,47 @@ html,body{
     .book{
         width: 100%;
         height: auto;
+        margin-top: 20px;
+        background: #eee;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         dl{
             width: 33.3%;
             height: 180px;
-            background: firebrick;
             padding: 10px;
             dt{
-                
+                width: 100%;
+                height: 80%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
             }
+        }
+    }
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background:fuchsiad;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .tuwen{
+        width: 33.3%;
+        height: 100%;
+        padding: 15px;
+        img{
+            width: 100%;
+            height: 80%;
+        }
+        span{
+            text-align: center;
+            display: block;
+            width: 100%;
+            height: 20%;
+            text-align: center;
         }
     }
 }

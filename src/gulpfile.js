@@ -42,4 +42,3 @@ gulp.task('default',gulp.series('server','minjs','watch'))
 
 
 // 2.	以自己的名字做为本地的开发分支，在开发分支进行开发，开发完成合并到master分支提交到线上的master分支 10分
-// 4.	src目录中实现上图功能开发，使用scss开发样式，js实现切换功能10分
