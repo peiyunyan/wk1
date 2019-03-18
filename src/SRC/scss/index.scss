@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background: saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.selection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .read{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid #000;
+    }
+    .color{
+        display: flex;
+        display: block;
+        height: 100%;
+        line-height: 50px;
+        border-bottom: 2px solid salmon;
+    }
+    .book{
+        width: 100%;
+        height: auto;
+        dl{
+            width: 33.3%;
+            height: 180px;
+            background: firebrick;
+            padding: 10px;
+            dt{
+                
+            }
+        }
+    }
+}
